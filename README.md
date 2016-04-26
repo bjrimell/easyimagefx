@@ -6,7 +6,9 @@ This plugin contains two JS files and one CSS file, alongside the main PHP file 
 
 The plugin expects the following HTMl in order to work:
 
-<div class="flip">
-  <div class="front"><img src="url_to_image.jpg" alt="" /></div>
-<div class="back"><img src="url_to_image.jpg" alt="" /></div>
-</div>
+<code>
+  <div class="flip">
+    <div class="front"><img src="url_to_image.jpg" alt="" /></div>
+  <div class="back"><img src="url_to_image.jpg" alt="" /></div>
+  </div>
+</code>
