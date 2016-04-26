@@ -1,14 +1,28 @@
 <?php
 /*
-Plugin Name: Easy Image FX
+Plugin Name: Easy Image Flipper
 Plugin URI: http://www.tortan-limited.co.uk/easyimagefx
 Version: 1.0
 Author: Tortan Limited
 Author Website: http://www.tortan-limited.co.uk
-Description: A SIMPLE and EASY to use plugin that will let you apply effects upon mouseover/hover. This early version includes just one feature:
-	- Image Replace - when a user hovers over an image, that image will be replaced with another of your choice.
+Description: A SIMPLE and EASY to use image flipper. When a user hovers over an image, that image will be replaced with another of your choice.
 
-In the future, further effects will be added.
+INSTRUCTIONS
+In this initial version, simply add a div with class name "flip" that contains subdivs named "front" and "back". For example, paste the following HTML onto your Wordpress page or post:
+
+<plaintext>
+	<div class="flip">
+		<div class="front">
+			<img src="url_to_image.jpg" alt="" />
+		</div>
+		<div class="back">
+			<img src="url_to_image.jpg" alt="" />
+		</div>
+	</div>
+</plaintext>
+
+And that's it! With that HTMl on your page and the plugin installed and activated, you will have an image that uses JQuery to flip.
+
 */
 
 function easyimagefx_script_and_style_includer() {
